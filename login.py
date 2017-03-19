@@ -4,7 +4,7 @@
 import getpass
 
 name = raw_input("Please input username：")
-file = open('user-text','r+')
+file = open('user-text.txt','r+')
 user_dic = dict()
 for line in file:
     line = line.strip().split(':')
